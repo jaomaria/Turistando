@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xu Passeios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Xu Passeios</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#destino">Destinos</a></li>
+            <li><a href="#dicas">Dicas de viagens</a></li>
+            <li><a href="#contato"></a></li>
+            
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h1>Destinos</h1>
+            <div class="destino" onclick="mostrarDetalhes('Dourado')"></div>
+            <div class="destino" onclick="mostrarDetalhes('Broa')"></div>
+            <div class="destino" onclick="mistrarDetalhes('Aparecidinha')"></div>
+        </section>
+
+        <section id="dicas">
+            <h2>Dicas de Viagem</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit cupiditate illo 
+                esse nobis enim quis est repellendus qui, officia quibusdam quas. Ipsum sapiente 
+                ipsam quae aut in quam ab consequatur.</p>
+
+        </section>
+        <section id="contato">
+            <form>
+                <input type="text" placeholder="Seu Nome" required>
+                <input type="text" placeholder="Seu Email" required>
+                <textarea placeholder="Sua Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Turistando</p>
+    </footer>
+    <script src="script.js"></script>
+    
+    
+</body>
+</html>
