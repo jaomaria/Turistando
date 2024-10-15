@@ -1,52 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xu Passeios</title>
+    <title>Turismo</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Xu Passeios</h1>
-        <h3>Melhor site de viagens de São Carlos e região</h3>
-        
-        <h2>Contato:(99)99999-9999</h2>
-        
     </header>
     <nav>
         <ul>
             <li><a href="#destino">Destinos</a></li>
-            <li><a href="index2.html">Dicas de viagens</a></li>
+            <li><a href="#dicas">Dicas</a></li>
+            <li><a href="#contato">Contato</a></li>
         </ul>
     </nav>
+
     <main>
-        <section>
-            <h1>Destinos</h1>
-            <div class="destino" onclick="mostrarDetalhes('Rio de Janeiro')"><a href="http://surl.li/bqbbwg" class="RJ">Rio de Janeiro</a></div>
-            <div class="destino" onclick="mostrarDetalhes('Ilhabela')"><a href="http://surl.li/pxauzf" class="ilhabela">Ilhabela</a></div>
-            <div class="destino" onclick="mistrarDetalhes('sao jose dos campos')" > <a href="http://surl.li/xctfvx" class="sjc">São José dos Campos</a></div>
-        </section>
-
-        <section id="dicas">
-            <h2>Feedbacks!</h2>
-            <p>Aqui voce pode nos contar o que achou de nossas dicas e nos de um feedback sobre nosso site.</p>
-
-        </section>
         <section id="contato">
-            <form>
-                <input type="text" placeholder="Seu Nome" required>
-                <input type="text" placeholder="Seu Email" required>
-                <textarea placeholder="Sua Mensagem" required></textarea>
-                <button type="submit">Enviar</button>
-            </form>
+            <h2>Destinos</h2>
+            <div class="destino" onclick="mostrarDetalhes('')"><a href="pages/Mongua.html" class="Monguagua"><img src="img/monguagua.png" alt="monguagua" width="370"><br>Monguagua</a></div>
+            <div class="destino" onclick="mostrarDetalhes('')"><img src="img/ilhabela.png" alt="ilhabela" width="370"><br>Ilhabela</div>
+            <div class="destino" onclick="mostrarDetalhes('')"><img src="img/fernando de noronha.png" alt="noronha" width="370"><br>Fernando de noronha</div>
+            
         </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Turistando</p>
-    </footer>
+<section id="dicas">
+    <h2>Dicas de Viagem</h2>
+    <p id="dicas de viagem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ad commodi autem, magnam aut repudiandae quisquam nulla atque, consectetur laudantium impedit veritatis 
+        voluptatum voluptatem cumque corrupti minima unde quidem expedita?</p>
+</section>
+
+<section id="contato">
+    <h2>Contato</h2>
+    <form>
+        <input type="text" placeholder="Seu Nome" required>
+        <input type="text" placeholder="Seu Email" required>
+        <textarea placeholder="Sua Mensagem"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+  </section>
+</main>
+<footer>
+    <p>&copy;2024 Xupasseios</p>
+</footer>
     <script src="script.js"></script>
-    
-    
 </body>
 </html>
